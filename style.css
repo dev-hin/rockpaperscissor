@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 25px;
+}
+
+.result {
+  position: absolute;
+  top: 150px;
+  font-family: monospace;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  color: red;
+}
+
+input {
+  height: 30px;
+  width: 80px;
+  margin: 0 10px;
+}
