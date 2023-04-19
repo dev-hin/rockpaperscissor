@@ -2,10 +2,11 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+h1 {
+  font-size: 24px;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
 }
 
 .btn-container {
@@ -17,13 +18,21 @@ body {
 }
 
 .result {
-  position: absolute;
   top: 150px;
   font-family: monospace;
   text-align: center;
   width: 300px;
   margin: 0 auto;
   color: red;
+}
+
+.score {
+  top: 200px;
+  font-family: monospace;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  color: blue;
 }
 
 input {
